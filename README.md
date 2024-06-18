@@ -1,3 +1,0 @@
-# Resolver
-
-Resolve domain asynchronously
