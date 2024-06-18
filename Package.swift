@@ -12,16 +12,10 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/Krestol/Quick", from: "7.6.1"),
-        .package(url: "https://github.com/Krestol/Nimble", from: "13.3.1"),
     ],
     targets: [
         .target(
             name: "Resolver"
-        ),
-        .testTarget(
-            name: "ResolverTests",
-            dependencies: ["Resolver", "Quick", "Nimble"]
         ),
     ]
 )
