@@ -12,8 +12,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/Quick/Quick", from: "2.2.0"),
-        .package(url: "https://github.com/Quick/Nimble", from: "8.0.0"),
+        .package(url: "https://github.com/Krestol/Quick", from: "7.6.1"),
+        .package(url: "https://github.com/Krestol/Nimble", from: "13.3.1"),
     ],
     targets: [
         .target(
